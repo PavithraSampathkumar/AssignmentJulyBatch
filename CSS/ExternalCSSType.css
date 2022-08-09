@@ -1,0 +1,43 @@
+/*Universal Selectors*/
+*{
+    background-color: antiquewhite;
+    font-size: large;
+}
+/*Type Selectors in single*/
+h1{
+    color: blue;
+}
+
+P{
+color: brown;
+}
+/*Class Selectors in single*/
+.clsred{
+   color: rgb(255, 127, 225);
+}
+/*ID Selector in single*/
+#p1{
+color: blueviolet;
+}
+/*Attribute Selectors in Single*/
+/*Type Selectors in multiple*/
+h1,p{
+    font-style: oblique;
+}
+/*Class Selectors in multiple*/
+.clsred,h3{
+    color: rgb(255, 127, 225);
+ }
+ /*ID Selector in multiple*/
+ #p1,h4{
+    font-style: italic;
+    }
+/*Attribute Selectors in multiple*/
+/*Type Selector and Class Selector*/
+p.clsred{
+    font-size: larger;
+}
+/*Type Selector and ID Selector*/
+#p1.clsred{
+    text-align: center;
+}
