@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Student Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body bgcolor="lightgreen">
+    <h1>Student Registration Form</h1>
+    <form>
+        <label name="Fname"><Strong>FirstName :</Strong></label>
+        <input type="text" name="Fname" maxlength="50" placeholder="Enter the FirstName"><br><br>
+        <label name="Lname"><Strong>LastName :</Strong></label>
+        <input type="text" name="Lname" maxlength="50" placeholder="Enter the LastName"><br><br>
+        <label name="EmailID"><Strong>Email ID :</Strong></label>
+        <input type="text" name="EmailID" placeholder="Enter the EmailID"><br><br>
+        <label name="MobNo"><strong>Mobile Number :</strong></label>
+        <input type="number" name="MobNo" maxlength="10" placeholder="Enter the Mobile Number"><br>
+      <p>  
+        <label name="Gender"><strong>Gender :</strong></label>
+        <input type="radio" name="Gender" value="Male"> Male       
+        <input type="radio" name="Gender" value="Female"> Female
+      </p>
+      <label name="DOB"><strong>Date of Birth(DOB) :</strong></label>
+      <input type="date" name="DOB" Value="Date"><br><br>
+      <label name="address"><strong>Address :</strong></label>
+      <input type="text" name="address">
+    <p>  
+      <label name="city"><strong>City :</strong></label>
+      <input type="text" name="city" maxlength="50" placeholder="Enter City"> (Max 50 Characters Allowed)
+    </p>    
+    <p>
+      <label name="pincode"><strong>Pincode :</strong></label>
+      <input type="number" name="pincode" maxlength="6" placeholder="Enter Pincode"> (Max 6 Numbers Allowed)
+    </p>
+    <p>
+        <label name="state"><strong>State :</strong></label>
+        <input type="text" name="state" maxlength="50" placeholder="Enter state"> (Max 50 charactes Allowed)
+    </p>
+     <label name="country"><strong>Country: </strong></label>
+     <input type="text" name="country" placeholder="Enter Country">
+     <p>
+     <label name="Hobbies"><strong>Hobbies :</strong></label><br>
+     <input type="checkbox" name="hobbies"> Drawing<br>
+     <input type="checkbox" name="hobbies"> Singing<br>
+     <input type="checkbox" name="hobbies"> Dancing<br>
+     <input type="checkbox" name="hobbies"> Sketching<br>
+     <input type="checkbox" name="hobbies"> Others
+     <input type="text" name="hobbies" maxlength="50" placeholder="Enter other hobbies"> (Max 50 Characters Allowed)
+    </p>
+    <p>
+        <label name="CAF"><strong>Courses Applies For :</strong></label><br>
+        <input type="radio" name="CAF"> BCA(BAchelor of Computer Applications) <br>
+        <input type="radio" name="CAF"> B.Com(Bachelor of Commerce)<br>
+        <input type="radio" name="CAF"> B.Sc(Bachelor of Science)<br>
+        <input type="radio" name="CAF"> BA(Bachelor of Arts)<br>
+        <input type="radio" name="CAF"> MCA(Master of Computer Applications)<br>
+        <input type="radio" name="CAF"> M.Com(Master of Commerce)<br>
+        <input type="radio" name="CAF"> MA(Master of Arts)<br>
+    </p>
+    <p>
+        <button type="submit"> Submit</button>
+        <button type="reset">Reset</button>
+    </p>
+    </form>
+</body>
+</html> 
