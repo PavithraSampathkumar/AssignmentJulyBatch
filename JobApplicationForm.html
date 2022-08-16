@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/JobApplicaionstyple.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+      <div class="apply_box">
+         <h1>Job Application 
+            <span class="title_small">(Web)</span>
+         </h1>
+        <form>
+            <div class="form_container"> 
+                <div class="form_control">    
+                    <label name="fname"><strong>FirstName * </strong></label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter the FirstName.." required>
+                </div>  
+                <div class="form_control">   
+                    <label name="lname"><strong>LastName * </strong></label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter the LastName.." required>
+                </div>
+                <div class="form_control">       
+                    <label name="email"><strong>Email * </strong></label>
+                    <input type="email" id="email" name="email" placeholder="Enter the Email.." required>
+                </div> 
+                <div class="form_control"> 
+                    <label name="job role"><strong>Job Role</strong></label>
+                    <select id="job_role" name="job role" required>
+                        <option value="">Select Job Role</option>
+                        <option value="React">React</option>
+                        <option value="Node">Node.js</option>
+                        <option value="Full_Stack">Full Stack Developer</option>
+                        <option value="Frontend">FrontEnd Developer</option>
+                    </select>
+                </div>  
+                <div class="textarea_control">
+                    <label name="address">Address</label>
+                    <textarea id="address" name="address" row="4" cols="50" placeholder="Enter Address.." required></textarea>
+                </div>
+                <div class="form_control">
+                    <label name="city">City</label>
+                    <input id="city" name="city" placeholder="Enter City Name.." required>
+                </div>
+                <div class="form_control">
+                    <label name="pincode">Pincode</label>
+                    <input type="number" name="pincode" placeholder="Enter Pincode here.." required>
+                </div>
+                <div class="form_control">
+                    <label name="date">DOB</label>
+                    <input value="1999-08-24" type="date" id="date" name="date">
+                </div>
+                <div class="form_control">
+                    <label name="upload">Upload your CV</label>
+                    <input type="file" id="upload" name="upload" required>
+                </div>
+                <div class="button_container">
+                    <button type="submit"> Apply Now</button>
+                </div>
+            </div>
+        </form>
+    </div>   
+</body>
+</html>
